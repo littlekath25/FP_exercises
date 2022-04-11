@@ -1,6 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala:4:4 [0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m4 |[0m    [33mdef[0m [36mfib[0m([36mn[0m: [35mInt[0m): [35mInt[0m =[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |    [33m^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |    Line is indented too far to the right, or a `{` or `:` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala:17:28 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m            [33melse[0m loop(n + [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m   |                            Required: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
