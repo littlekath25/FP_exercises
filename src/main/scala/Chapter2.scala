@@ -44,12 +44,20 @@ object Chapter2 extends App {
     def uncurriedAdd = uncurry(curriedAdd)
 
     println("Exercise 2.4: " + uncurriedAdd(2, 3))
-    println("Exercise 2.4: " + uncurriedAdd(20, 12))
+    println("Exercise 2.4: " + uncurriedAdd(20, 12) + "\n")
 
     // Exercise 2.5
     def compose[A, B, C](f: B => C, g: A => B): A => C =
         a => f(g(a))
 
-    println("Exercise 2.5: " + uncurriedAdd(2, 3))
-    println("Exercise 2.5: " + uncurriedAdd(20, 12))
+    def addOne(x: Int) : Int =
+        x + 1
+    
+    def timesTwo(y: Int) : Int =
+        y * 2
+
+    def newCompose = compose(addOne, timesTwo)
+
+    println("Exercise 2.5: " + newCompose(1))
+    println("Exercise 2.5: " + newCompose(20))
 }
