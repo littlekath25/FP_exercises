@@ -29,5 +29,21 @@ object Chapter2 extends App {
     def curry[A, B, C](f: (A, B) => C) : A => (B => C) =
         a => b => f(a, b)
 
+    def addFunction(x: Int, y: Int) : Int =
+        x + y
+
+    def curriedAdd = curry(addFunction)
+
+    println("Exercise 2.3: " + curriedAdd(2)(3))
+    println("Exercise 2.3: " + curriedAdd(20)(12) + "\n")
+
     // Exercise 2.4
+    def uncurry[A, B, C](f: A => B => C) : (A, B) => C =
+        (a, b) => f(a)(b)
+
+    def uncurriedAdd = uncurry(curriedAdd)
+
+    println("Exercise 2.4: " + uncurriedAdd(2, 3))
+    println("Exercise 2.4: " + uncurriedAdd(20, 12))
+
 }

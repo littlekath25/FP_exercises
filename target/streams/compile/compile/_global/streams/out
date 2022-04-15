@@ -1,12 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala:30:13 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m        [36ma[0m: [35mA[0m => [36mb[0m: [35mB[0m => f(a, b)[0m
-[0m[[0m[31merror[0m] [0m[0m   |             [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |parentheses are required around the parameter of a lambda[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala:30:21 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m        [36ma[0m: [35mA[0m => [36mb[0m: [35mB[0m => f(a, b)[0m
-[0m[[0m[31merror[0m] [0m[0m   |                     [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |parentheses are required around the parameter of a lambda[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct can be rewritten automatically under -rewrite -source 3.0-migration.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala:46:43 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m    println([31m"Exercise 2.4: "[0m + uncurriedAdd([31m2[0m)([31m3[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |missing argument for parameter v2 of [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mFunction2[0m: (v1: Int, v2: Int): Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala:47:43 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m    println([31m"Exercise 2.4: "[0m + uncurriedAdd([31m20[0m)([31m12[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |missing argument for parameter v2 of [33mmethod[0m [35mapply[0m in [33mtrait[0m [35mFunction2[0m: (v1: Int, v2: Int): Int[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
