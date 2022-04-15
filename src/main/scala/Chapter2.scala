@@ -26,5 +26,8 @@ object Chapter2 extends App {
     println("Exercise 2.2: " + isSorted(Array('A', 'C', 'B', 'D'), (x, y) => x < y) + "\n")
 
     // Exercise 2.3
-    
+    def curry[A, B, C](f: (A, B) => C) : A => (B => C) =
+        a => b => f(a, b)
+
+    // Exercise 2.4
 }
