@@ -3494,3 +3494,1534 @@ WARNING: Unmatched cancel notification for request id 3392
 2022.04.17 12:31:26 INFO  time: code lens generation in 10s
 2022.04.17 12:31:26 INFO  time: code lens generation in 10s
 2022.04.17 12:59:54 INFO  shutting down Metals
+2022.04.18 22:06:06 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/katherine/Desktop/Projecten/FP_exercises/.metals/lsp.trace.json or /Users/katherine/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.04.18 22:06:07 INFO  logging to file /Users/katherine/Desktop/Projecten/FP_exercises/.metals/metals.log[0m
+2022.04.18 22:06:07 INFO  Started: Metals version 0.11.2 in workspace '/Users/katherine/Desktop/Projecten/FP_exercises' for client Visual Studio Code 1.66.2.[0m
+2022.04.18 22:06:07 INFO  Parse release: 17.0.2[0m
+2022.04.18 22:06:14 INFO  time: initialize in 6.74s[0m
+2022.04.18 22:06:14 WARN  Build server is not auto-connectable.[0m
+2022.04.18 22:06:15 INFO  skipping build import with status 'Requested'[0m
+2022.04.18 22:06:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala[0m
+2022.04.18 22:06:29 INFO  no build target found for /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala. Using presentation compiler with project's scala-library version: 3.1.1[0m
+2022.04.18 22:06:33 INFO  time: code lens generation in 11s[0m
+2022.04.18 22:06:33 INFO  time: code lens generation in 11s[0m
+2022.04.18 22:07:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala[0m
+2022.04.18 22:07:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala[0m
+2022.04.18 22:07:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala[0m
+2022.04.18 22:14:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter2.scala[0m
+2022.04.18 22:14:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 16 more
+
+2022.04.18 22:14:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:14:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:14:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 16 more
+
+2022.04.18 22:14:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:14:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 16 more
+
+2022.04.18 22:14:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:14:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:143)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:78)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:77)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1615)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1614)
+	... 15 more
+
+2022.04.18 22:14:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:14:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:15:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:15:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:15:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:26:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:27:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:28:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Exception in thread "pool-1-thread-23" java.lang.StackOverflowError
+	at scala.meta.internal.parsers.LazyTokenIterator.$anonfun$nextToken$6(LazyTokenIterator.scala:385)
+	at scala.meta.internal.parsers.LazyTokenIterator.$anonfun$nextToken$6$adapted(LazyTokenIterator.scala:384)
+	at scala.Option.filter(Option.scala:289)
+	at scala.meta.internal.parsers.LazyTokenIterator.getOutdentIfNeeded$1(LazyTokenIterator.scala:384)
+	at scala.meta.internal.parsers.LazyTokenIterator.nextToken(LazyTokenIterator.scala:435)
+	at scala.meta.internal.parsers.LazyTokenIterator.next(LazyTokenIterator.scala:63)
+	at scala.meta.internal.parsers.ScalametaParser.next(ScalametaParser.scala:179)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$next(ScalametaParser.scala:198)
+	at scala.meta.internal.parsers.ScalametaParser.ahead(ScalametaParser.scala:192)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3268)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3629)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3275)
+2022.04.18 22:29:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:29:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:30:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:30:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:30:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:30:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:31:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:31:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:31:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:31:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:31:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:31:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:31:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:32:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:32:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:32:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:32:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:34:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:34:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:34:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:35:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:35:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:35:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:35:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:35:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:35:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:36:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:36:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:36:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1513
+Apr 18, 2022 10:36:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1516
+2022.04.18 22:36:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:36:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:36:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:36:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:37:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:37:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:37:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:37:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:38:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1644
+2022.04.18 22:38:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1652
+2022.04.18 22:38:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:38:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:38:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1756
+2022.04.18 22:38:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:39:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:40:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:42:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:42:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:42:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:42:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:42:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:42:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:44:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:45:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:45:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:45:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:46:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:46:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:46:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:46:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:46:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:46:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:46:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:47:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:47:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:47:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:47:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:48:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:48:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:48:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:51:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:51:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:51:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:51:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:51:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:51:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:52:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:53:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:54:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:55:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:56:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:57:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:58:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 10:59:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3860
+2022.04.18 22:59:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 22:59:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 11:00:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4030
+2022.04.18 23:00:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:00:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:01:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:01:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:01:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:01:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:01:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:01:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:01:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:02:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:03:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:04:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:04:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:04:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:04:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:04:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
