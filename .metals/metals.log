@@ -5025,3 +5025,111 @@ WARNING: Unmatched cancel notification for request id 4030
 2022.04.18 23:04:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
 2022.04.18 23:04:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
 2022.04.18 23:04:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:04:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:05:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:05:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:05:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:06:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 11:07:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5171
+2022.04.18 23:07:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:07:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:08:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:15 INFO  Found new symbol references for 'total', try running again.[0m
+2022.04.18 23:09:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5561
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5559
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5564
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5567
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5569
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5575
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5574
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5580
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5577
+2022.04.18 23:09:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5579
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5583
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5581
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5588
+Apr 18, 2022 11:09:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5582
+2022.04.18 23:09:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:09:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:10:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:10:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:10:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:10:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:10:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:10:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:10:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.04.18 23:11:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m

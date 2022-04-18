@@ -1,8 +1,8 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:51:8 [0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m51 |[0m        list [33mmatch[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |        [33m^^^^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |        [33mmatch[0m may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |        It would fail on pattern case: Chapter3.Cons(_, _)[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:60:8 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m60 |[0m        [33mif[0m (total < [31m0[0m) drop(tail(list), total - [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m   |        Required: Chapter3.List[A][0m
+[0m[[0m[31merror[0m] [0m[0m   |        Maybe you are missing an else part for the conditional?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

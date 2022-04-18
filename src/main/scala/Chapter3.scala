@@ -54,4 +54,13 @@ object Chapter3 extends App {
 
     println("Exercise 3.3: " + setHead(exampleList, 2))
     println("Exercise 3.3: " + setHead(exampleList2, 5) + "\n")
+
+    // Exercise 3.4
+    def drop[A](list: List[A], total: Int) : List[A] =
+        total match
+            case 0 => list
+            case _ => drop(tail(list), total - 1)
+
+    println("Exercise 3.4: " + drop(exampleList, 2))
+    println("Exercise 3.4: " + drop(exampleList, 1) + "\n")
 }
