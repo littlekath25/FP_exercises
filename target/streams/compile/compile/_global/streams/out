@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:110:31 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m            [33mcase[0m Cons(h, t) => foldLeft(t, f(z, h))[0m
-[0m[[0m[31merror[0m] [0m[0m    |                               [31m^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |                               Found:    ((B, A) => B) => B[0m
-[0m[[0m[31merror[0m] [0m[0m    |                               Required: B[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:121:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m121 |[0m        foldLeft(ds, [31m1[0m)(_ + _)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                        [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                        Found:    Double[0m
+[0m[[0m[31merror[0m] [0m[0m    |                        Required: Int[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

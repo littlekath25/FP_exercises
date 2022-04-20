@@ -43,6 +43,7 @@ object Chapter3 extends App {
 
     val exampleList = List(1, 2, 3, 4)
     val exampleList2 = Nil
+    val exampleList3 = List(2, 2, 2, 2, 2)
 
     println("Exercise 3.2: " + tail(exampleList))
     println("Exercise 3.2: " + tail(exampleList2) + "\n")
@@ -109,9 +110,26 @@ object Chapter3 extends App {
             case Nil => z
             case Cons(h, t) => foldLeft(t, f(z, h))(f)
 
+    // Exercise 3.11
     def lengthLeftFold[A](list: List[A]) : Int =
         foldLeft(list, 0)((y, _) => y + 1)
 
-    println("Exercise 3.10: " + lengthLeftFold(exampleList))
-    println("Exercise 3.10: " + lengthLeftFold(exampleList2) + "\n")
+    def sumLeftFold(ints: List[Int]): Int = 
+        foldLeft(ints, 0)(_ + _)
+
+    def productLeftFold(ds: List[Double]): Double =
+        foldLeft(ds, 1.0)(_ * _)
+
+    println("Exercise 3.11: " + lengthLeftFold(exampleList))
+    println("Exercise 3.11: " + lengthLeftFold(exampleList2) + "\n")
+
+    println("Exercise 3.11: " + sumLeftFold(exampleList))
+    println("Exercise 3.11: " + sumLeftFold(exampleList3) + "\n")
+
+    val doubleList = List(1.0, 2.0, 3.0, 4.0)
+    val doubleList2 = List(0.0, 0.0, 0.0, 0.0)
+
+    println("Exercise 3.11: " + productLeftFold(doubleList2))
+    println("Exercise 3.11: " + productLeftFold(doubleList) + "\n")
+
 }
