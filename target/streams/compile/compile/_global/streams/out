@@ -1,8 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:79:12 [0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m79 |[0m            list [33mmatch[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |            [33m^^^^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |            [33mmatch[0m may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |[0m
-[0m[[0m[33mwarn[0m] [0m[0m   |            It would fail on pattern case: Nil[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:101:48 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m        foldRight(list, [31m0[0m)(([36mx[0m, [36my[0m) => [31m1[0m + length(y))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                          Found:    (y : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                          Required: Chapter3.List[Any][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

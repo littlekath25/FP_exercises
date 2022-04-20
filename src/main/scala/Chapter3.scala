@@ -43,6 +43,7 @@ object Chapter3 extends App {
 
     val exampleList = List(1, 2, 3, 4)
     val exampleList2 = Nil
+
     println("Exercise 3.2: " + tail(exampleList))
     println("Exercise 3.2: " + tail(exampleList2) + "\n")
 
@@ -90,5 +91,21 @@ object Chapter3 extends App {
     // I think it will construct a new list of ints. The relationship between foldRight and the list constructor is that they both
     // start building from the last element to the first.
 
+    // Exercise 3.9
+    def foldRight[A, B](list: List[A], z: B)(f: (A, B) => B) : B =
+        list match
+            case Nil => z
+            case Cons(h, t) => f(h, foldRight(t, z)(f))
+
+    def length[A](list: List[A]) : Int =
+        foldRight(list, 0)((_, y) => y + 1)
     
+    println("Exercise 3.9: " + length(exampleList))
+    println("Exercise 3.9: " + length(exampleList2) + "\n")
+
+    // Exercise 3.10
+    def foldLeft[A, B](list: List[A], z: B)(f: (A, B) => B) : B =
+        list match
+            case Nil => list
+            case Cons(h, t)
 }
