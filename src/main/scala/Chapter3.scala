@@ -84,5 +84,11 @@ object Chapter3 extends App {
     println("Exercise 3.6: " + init(exampleList) + "\n")
 
     // Exercise 3.7
+    // No, because it have to go back and multiply the previous values.
+
+    // Exercise 3.8
+    // I think it will construct a new list of ints. The relationship between foldRight and the list constructor is that they both
+    // start building from the last element to the first.
+
     
 }
