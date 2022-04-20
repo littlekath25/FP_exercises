@@ -107,7 +107,7 @@ object Chapter3 extends App {
     def foldLeft[A, B](list: List[A], z: B)(f: (B, A) => B) : B =
         list match
             case Nil => z
-            case Cons(h, t) => foldLeft(t, f(z, h))
+            case Cons(h, t) => foldLeft(t, f(z, h))(f)
 
     def lengthLeftFold[A](list: List[A]) : Int =
         foldLeft(list, 0)((y, _) => y + 1)
