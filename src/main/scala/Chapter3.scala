@@ -75,5 +75,14 @@ object Chapter3 extends App {
     println("Exercise 3.5: " + dropWhile(exampleList, x => x < 3) + "\n")
 
     // Exercise 3.6
+    def init[A](list: List[A]) : List[A] =
+            list match
+                case Cons(h, t) if (t != Nil) => Cons(h, init(t))
+                case _ => Nil
+
+    println("Exercise 3.6: " + init(exampleList))
+    println("Exercise 3.6: " + init(exampleList) + "\n")
+
+    // Exercise 3.7
     
 }
