@@ -63,4 +63,17 @@ object Chapter3 extends App {
 
     println("Exercise 3.4: " + drop(exampleList, 2))
     println("Exercise 3.4: " + drop(exampleList, 1) + "\n")
+    
+
+    // Exercise 3.5
+    def dropWhile[A](list: List[A], f: A => Boolean) : List[A] =
+        list match
+            case Cons(h, t) if f(h) => dropWhile(t, f)
+            case _ => list
+
+    println("Exercise 3.5: " + dropWhile(exampleList, x => x < 3))
+    println("Exercise 3.5: " + dropWhile(exampleList, x => x < 3) + "\n")
+
+    // Exercise 3.6
+    
 }
