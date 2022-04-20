@@ -132,4 +132,10 @@ object Chapter3 extends App {
     println("Exercise 3.11: " + productLeftFold(doubleList2))
     println("Exercise 3.11: " + productLeftFold(doubleList) + "\n")
 
+    // Exercise 3.12
+    def reverse[A](list: List[A]) : List[A] =
+        foldLeft(list, Nil: List[A])((acc, elem) => Cons(elem, acc))
+
+    println("Exercise 3.12: " + reverse(exampleList))
+    println("Exercise 3.12: " + reverse(exampleList3) + "\n")
 }
