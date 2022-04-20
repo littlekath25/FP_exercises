@@ -104,8 +104,14 @@ object Chapter3 extends App {
     println("Exercise 3.9: " + length(exampleList2) + "\n")
 
     // Exercise 3.10
-    def foldLeft[A, B](list: List[A], z: B)(f: (A, B) => B) : B =
+    def foldLeft[A, B](list: List[A], z: B)(f: (B, A) => B) : B =
         list match
-            case Nil => list
-            case Cons(h, t)
+            case Nil => z
+            case Cons(h, t) => foldLeft(t, f(z, h))
+
+    def lengthLeftFold[A](list: List[A]) : Int =
+        foldLeft(list, 0)((y, _) => y + 1)
+
+    println("Exercise 3.10: " + lengthLeftFold(exampleList))
+    println("Exercise 3.10: " + lengthLeftFold(exampleList2) + "\n")
 }
