@@ -140,5 +140,22 @@ object Chapter3 extends App {
     println("Exercise 3.12: " + reverse(exampleList3) + "\n")
 
     // Exercise 3.13
+
+    // Exercise 3.14
+    def append[A](a1: List[A], a2: List[A]) : List[A] =
+        foldRight(a1, a2)((acc, elem) => Cons(acc, elem))
+    
+    println("Exercise 3.14: " + append(exampleList, List(9, 10)))
+    println("Exercise 3.14: " + append(exampleList, List(9, 10)) + "\n")
+
+    // Exercise 3.15
+    def concatenates[A](list: List[List[A]]) : List[A] =
+        foldRight(list, Nil: List[A])((acc, elem) => append(acc, elem))
+
+    val listsOfLists = List(List(1, 2, 3), List(4, 5, 6), List(7, 8, 9))
+
+    println("Exercise 3.15: " + concatenates(listsOfLists) + "\n")
+
+    // Exercise 3.16
     
 }
