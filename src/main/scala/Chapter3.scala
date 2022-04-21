@@ -138,4 +138,7 @@ object Chapter3 extends App {
 
     println("Exercise 3.12: " + reverse(exampleList))
     println("Exercise 3.12: " + reverse(exampleList3) + "\n")
+
+    // Exercise 3.13
+    
 }
