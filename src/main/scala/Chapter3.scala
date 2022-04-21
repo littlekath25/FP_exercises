@@ -157,5 +157,18 @@ object Chapter3 extends App {
     println("Exercise 3.15: " + concatenates(listsOfLists) + "\n")
 
     // Exercise 3.16
-    
+    def addOne(list: List[Int]) : List[Int] =
+        foldRight(list, Nil: List[Int])((elem, acc) => Cons(elem + 1, acc))
+
+    println("Exercise 3.16: " + addOne(exampleList) + "\n")
+
+    // Exercise 3.17
+    def doubleToString(list: List[Double]) : List[String] =
+        foldRight(list, Nil: List[String])((elem, acc) => Cons(elem.toString, acc))
+
+    println("Exercise 3.17: " + doubleToString(doubleList) + "\n")
+
+    // Exercise 3.18
+    def map[A, B](list: List[A])(f: A => B) : List[B] =
+        ???
 }
