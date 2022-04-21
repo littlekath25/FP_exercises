@@ -199,4 +199,8 @@ object Chapter3 extends App {
 
     // Exercise 3.21
     def filterViaFlatMap[A](list: List[A])(f: A => Boolean): List[A] =
+        flatflatMapViaFoldMap(list)(x => if f(x) then List(x) else Nil)
+
+    println("Exercise 3.21: " + filterViaFlatMap(exampleList)(x => x % 2 == 1))
+    println("Exercise 3.21: " + filterViaFlatMap(exampleList)(x => x % 2 == 0) + "\n")
 }
