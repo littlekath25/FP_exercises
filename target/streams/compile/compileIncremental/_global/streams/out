@@ -22,19 +22,19 @@
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /Users/katherine/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.1.1/scala3-sbt-bridge-3.1.1.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler b0a7790 for Scala Compiler version 3.1.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 41fb5dfe for Scala Compiler version 3.1.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/katherine/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.1/scala3-library_3-3.1.1.jar:/Users/katherine/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.828289958 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.158947917 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Chapter3.Chapter3...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Chapter3.Chapter3[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Chapter3.Chapter3)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Chapter3.Chapter3,ModifiedNames(changes = UsedName(listOfStrings,[Default]), UsedName(map,[Default]))) invalidates 1 classes due to The Chapter3.Chapter3 has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(listOfStrings,[Default]), UsedName(map,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Chapter3.Chapter3,ModifiedNames(changes = UsedName(flatMapViaFold,[Default]))) invalidates 1 classes due to The Chapter3.Chapter3 has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(flatMapViaFold,[Default]).[0m
 [0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Chapter3.Chapter3)[0m
 [0m[[0m[0mdebug[0m] [0m[0m  > [0m
 [0m[[0m[0mdebug[0m] [0m[0m  > [0m

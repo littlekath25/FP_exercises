@@ -175,5 +175,28 @@ object Chapter3 extends App {
     println("Exercise 3.18: " + map(exampleList)(x => x + 1) + "\n")
 
     // Exercise 3.19
-    
+    def filter[A](list: List[A])(f: A => Boolean): List[A] =
+        foldRight(list, Nil: List[A])((elem, acc) => if f(elem) then Cons(elem, acc) else acc)
+
+    // def filterViaPattern[A](list: List[A])(f: A => Boolean): List[A] =
+    //     foldRight(list, Nil: List[A])((elem, acc) => if f(elem) then Cons(elem, acc) else acc)
+
+    println("Exercise 3.19: " + filter(exampleList)(x => x % 2 == 1))
+    println("Exercise 3.19: " + filter(exampleList)(x => x % 2 == 0) + "\n")
+
+    // Exercise 3.20
+    def flatMap[A, B](list: List[A])(f: A => List[B]): List[B] =
+        concatenates(map(list)(f))
+
+    def flatMapViaFold[A, B](list: List[A])(f: A => List[B]): List[B] =
+        foldRight(list, Nil: List[B])((elem, acc) => append(f(elem), acc))
+
+    println("Exercise 3.20: " + flatMap(exampleList)(i => List(i, i)))
+    println("Exercise 3.20: " + flatMap(exampleList)(i => List(i, i)) + "\n")
+
+    println("Exercise 3.20: " + flatMapViaFold(exampleList)(i => List(i, i)))
+    println("Exercise 3.20: " + flatMapViaFold(exampleList)(i => List(i, i)) + "\n")
+
+    // Exercise 3.21
+    def filterViaFlatMap[A](list: List[A])(f: A => Boolean): List[A] =
 }
