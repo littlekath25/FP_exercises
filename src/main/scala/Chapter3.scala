@@ -170,5 +170,10 @@ object Chapter3 extends App {
 
     // Exercise 3.18
     def map[A, B](list: List[A])(f: A => B) : List[B] =
-        ???
+        foldRight(list, Nil: List[B])((elem, acc) => Cons(f(elem), acc))
+
+    println("Exercise 3.18: " + map(exampleList)(x => x + 1) + "\n")
+
+    // Exercise 3.19
+    
 }
