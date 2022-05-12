@@ -197,7 +197,7 @@ object Chapter3 extends App {
     println("Exercise 3.20: " + flatMapViaFold(exampleList)(i => List(i, i)))
     println("Exercise 3.20: " + flatMapViaFold(exampleList)(i => List(i, i)) + "\n")
 
-    // Exercise 3.21 - Marco vragen waarom het werk, moeten toch list met Nil's erin terug krijgen?
+    // Exercise 3.21
     def filterViaFlatMap[A](list: List[A])(f: A => Boolean): List[A] =
         flatMapViaFold(list)(x => if f(x) then List(x) else Nil)
 
@@ -207,4 +207,7 @@ object Chapter3 extends App {
     // Exercise 3.22
     def sumLists[A](l1: List[A], l2: List[A]) : List[A] =
         ???
+
+    println("Exercise 3.22: " + sumLists(List(1, 2, 3), List(4, 5, 6))
+    println("Exercise 3.22: " + sumLists(List(1, 1, 1), List(1, 1, 1))
 }
