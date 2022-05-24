@@ -1,14 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:213:0 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m213 |[0m}[0m
-[0m[[0m[31merror[0m] [0m[0m    |[31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |')' expected, but '}' found[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:212:4 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m211 |[0m    println([31m"Exercise 3.22: "[0m + sumLists(List([31m1[0m, [31m2[0m, [31m3[0m), List([31m4[0m, [31m5[0m, [31m6[0m))[0m
-[0m[[0m[31merror[0m] [0m[0m[31m212 |[0m    println([31m"Exercise 3.22: "[0m + sumLists(List([31m1[0m, [31m1[0m, [31m1[0m), List([31m1[0m, [31m1[0m, [31m1[0m))[0m
-[0m[[0m[31merror[0m] [0m[0m    |            [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |       value println is not a member of String.[0m
-[0m[[0m[31merror[0m] [0m[0m    |       Note that `println` is treated as an infix operator in Scala 3.[0m
-[0m[[0m[31merror[0m] [0m[0m    |       If you do not want that, insert a `;` or empty line in front[0m
-[0m[[0m[31merror[0m] [0m[0m    |       or drop any spaces behind the operator.[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala:231:53 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m231 |[0m    println([31m"Exercise 3.24: "[0m + myListInts.takeWhile(x < [31m6[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                     [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                     Not found: x[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -29,7 +29,6 @@ object Chapter3 extends App {
         case Cons(x, Cons(2, Cons(4, _))) => x
         case Nil => 42
         case Cons(x, Cons(y, Cons(3, Cons(4, _)))) => x + y
-        // case Cons(h, t) => h + sum(t)
         case _ => 101
     }
 
@@ -205,9 +204,55 @@ object Chapter3 extends App {
     println("Exercise 3.21: " + filterViaFlatMap(exampleList)(x => x % 2 == 0) + "\n")
 
     // Exercise 3.22
-    def sumLists[A](l1: List[A], l2: List[A]) : List[A] =
-        ???
+    def sumLists(l1: List[Int], l2: List[Int]) : List[Int] =
+        (l1, l2) match
+            case (Nil, _) => Nil
+            case (_, Nil) => Nil
+            case (Cons(l1, t1), Cons(l2, t2)) => Cons(l1 + l2, sumLists(t1, t2))
 
-    println("Exercise 3.22: " + sumLists(List(1, 2, 3), List(4, 5, 6))
-    println("Exercise 3.22: " + sumLists(List(1, 1, 1), List(1, 1, 1))
+    println("Exercise 3.22: " + sumLists(List(1, 2, 3), List(4, 5, 6)))
+    println("Exercise 3.22: " + sumLists(List(1, 1, 1), List(1, 1, 1)) + "\n")
+
+    // Exercise 3.23
+    def zipWith[A, B, C](l1: List[A], l2: List[B], f: (A, B) => C) : List[C] =
+        (l1, l2) match
+            case (Nil, _) => Nil
+            case (_, Nil) => Nil
+            case (Cons(l1, t1), Cons(l2, t2)) => Cons(f(l1, l2), zipWith(t1, t2, f))
+    
+    println("Exercise 3.23: " + zipWith(List(6, 5, 4), List(3, 2, 1), (x, y) => x - y))
+    println("Exercise 3.23: " + zipWith(List(6, 2, 4), List(4, 5, 6), (x, y) => x * y) + "\n")
+
+    // Exercise 3.24
+    val myListInts = SList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val myListIntsShort = SList(1, 2, 3, 4, 5)
+    val myListChars = SList('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H')
+
+    /* 
+    ScanLeft:
+        0 + 1             =    1
+        1 + 2             =    3
+        1 + 2 + 3         =    6
+        1 + 2 + 3 + 4     =   10
+        1 + 2 + 3 + 4 + 5 =   15
+
+    ScanRight:
+        5 + 4 + 3 + 2 + 1 =   15
+        5 + 4 + 3 + 2     =   14
+        5 + 4 + 3         =   12
+        5 + 4             =    9
+        5 + 0             =    5
+        0                 =    0
+    */
+
+    println("Exercise 3.24: " + myListInts.take(5))
+    println("Exercise 3.24: " + myListInts.takeWhile(x => x <= 5) + "\n")
+    println("Exercise 3.24: " + myListIntsShort.scanLeft(0)(_ + _))
+    println("Exercise 3.24: " + myListIntsShort.scanRight(0)(_ + _) + "\n")
+    println("Exercise 3.24: " + myListChars.forall(x => x < 'Z'))
+    println("Exercise 3.24: " + myListChars.exists(x => x == 'J') + "\n")
+
+    // Exercise 3.25
+    def hasSubsequence[A](sup: List[A], sub: List[A]) : Boolean =
+        ???
 }
