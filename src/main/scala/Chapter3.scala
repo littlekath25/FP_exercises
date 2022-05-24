@@ -255,4 +255,5 @@ object Chapter3 extends App {
     // Exercise 3.25
     def hasSubsequence[A](sup: List[A], sub: List[A]) : Boolean =
         ???
+
 }
