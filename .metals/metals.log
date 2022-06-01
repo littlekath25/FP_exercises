@@ -8817,3 +8817,1642 @@ WARNING: Unmatched cancel notification for request id 4328
 2022.05.24 10:45:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
 2022.05.24 10:45:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
 2022.05.24 10:45:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.05.24 10:47:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+Exception in thread "pool-3-thread-4" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.05.24 10:47:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.05.24 10:47:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.05.24 10:47:41 INFO  shutting down Metals[0m
+2022.05.31 16:01:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/katherine/Desktop/Projecten/FP_exercises/.metals/lsp.trace.json or /Users/katherine/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.05.31 16:02:00 INFO  logging to file /Users/katherine/Desktop/Projecten/FP_exercises/.metals/metals.log[0m
+2022.05.31 16:02:00 INFO  Started: Metals version 0.11.5 in workspace '/Users/katherine/Desktop/Projecten/FP_exercises' for client Visual Studio Code 1.67.2.[0m
+2022.05.31 16:02:05 INFO  time: initialize in 4.88s[0m
+2022.05.31 16:02:05 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.05.31 16:02:05 WARN  Build server is not auto-connectable.[0m
+2022.05.31 16:02:06 INFO  skipping build import with status 'Requested'[0m
+2022.05.31 16:21:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.05.31 16:21:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.05.31 16:21:54 INFO  no build target found for /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.05.31 16:21:55 INFO  time: code lens generation in 7.37s[0m
+2022.05.31 16:21:55 INFO  time: code lens generation in 7.37s[0m
+2022.05.31 16:27:33 INFO  shutting down Metals[0m
+2022.06.01 14:01:01 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/katherine/Desktop/Projecten/FP_exercises/.metals/lsp.trace.json or /Users/katherine/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.06.01 14:01:02 INFO  logging to file /Users/katherine/Desktop/Projecten/FP_exercises/.metals/metals.log[0m
+2022.06.01 14:01:02 INFO  Started: Metals version 0.11.5 in workspace '/Users/katherine/Desktop/Projecten/FP_exercises' for client Visual Studio Code 1.67.2.[0m
+2022.06.01 14:01:08 INFO  time: initialize in 6.62s[0m
+2022.06.01 14:01:09 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 14:01:10 WARN  Build server is not auto-connectable.[0m
+2022.06.01 14:01:10 INFO  skipping build import with status 'Requested'[0m
+2022.06.01 14:01:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:25 INFO  no build target found for /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.01 14:01:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter3.scala[0m
+2022.06.01 14:01:31 INFO  time: code lens generation in 13s[0m
+2022.06.01 14:01:31 INFO  time: code lens generation in 13s[0m
+2022.06.01 14:01:31 INFO  time: code lens generation in 13s[0m
+2022.06.01 14:01:31 INFO  time: code lens generation in 13s[0m
+2022.06.01 14:06:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:06:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 16 more
+
+2022.06.01 14:06:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:06:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 10 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 14:06:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 10 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 14:06:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:06:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:66)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jun 01, 2022 2:06:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..0]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.unipush(CompletableFuture.java:593)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:737)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: 14 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:66)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jun 01, 2022 2:06:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 14:06:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+Jun 01, 2022 2:06:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 14:06:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+Jun 01, 2022 2:06:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+Jun 01, 2022 2:06:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+Jun 01, 2022 2:06:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+Jun 01, 2022 2:06:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+Jun 01, 2022 2:06:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 3 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 14:06:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 3 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+Jun 01, 2022 2:06:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 2 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 14:06:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+Jun 01, 2022 2:06:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 7 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+Jun 01, 2022 2:07:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 7 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+Jun 01, 2022 2:07:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 7 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+Jun 01, 2022 2:07:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 6 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 14:07:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:07:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:07:09 INFO  time: code lens generation in 1.27s[0m
+2022.06.01 14:07:09 INFO  time: code lens generation in 1.27s[0m
+2022.06.01 14:07:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:07:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:07:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:07:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter4.scala[0m
+2022.06.01 14:07:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 14:07:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 1.69s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 1.13s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 1.48s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 2.53s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 1.48s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 1.13s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 2.92s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 2.53s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 2.92s[0m
+2022.06.01 14:08:24 INFO  time: code lens generation in 1.69s[0m
+2022.06.01 14:08:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:08:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:09:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:09:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:09:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:09:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 14:10:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter08.scala[0m
+2022.06.01 14:10:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter08.scala[0m
+2022.06.01 14:10:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter08.scala[0m
+2022.06.01 14:10:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter02.scala[0m
+2022.06.01 14:10:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:10:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 14:10:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 14:10:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 14:10:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter08.scala[0m
+2022.06.01 14:11:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter08.scala[0m
+2022.06.01 14:11:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter08.scala[0m
+2022.06.01 14:11:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:11:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:00 INFO  time: code lens generation in 3.25s[0m
+2022.06.01 14:12:00 INFO  time: code lens generation in 2.03s[0m
+2022.06.01 14:12:00 INFO  time: code lens generation in 3.24s[0m
+2022.06.01 14:12:00 INFO  time: code lens generation in 1.4s[0m
+2022.06.01 14:12:00 INFO  time: code lens generation in 1.39s[0m
+2022.06.01 14:12:00 INFO  time: code lens generation in 2.03s[0m
+2022.06.01 14:12:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:12:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:13:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Jun 01, 2022 2:14:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1028
+2022.06.01 14:14:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:14:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 14:14:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:15:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Jun 01, 2022 2:16:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1285
+2022.06.01 14:16:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:16:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:17:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:18:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:18:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:18:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:19:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:19:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:19:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:19:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:19:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:19:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:20:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:21:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:22:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:22:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:22:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:22:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:22:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:22:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:23:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:24:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:25:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:25:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:25:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:25:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:25:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:25:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:26:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:28:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:28:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:28:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:28:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:28:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:28:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:28:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:29:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:29:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:29:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:29:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:29:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:29:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:29:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:30:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Exception in thread "pool-3-thread-2" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:58)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:66)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:102)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-3-thread-3" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:58)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:66)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:102)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 14:31:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:31:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:32:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:33:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:34:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:35:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:36:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:37:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:38:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:38:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:38:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:38:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:38:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:38:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:38:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Jun 01, 2022 2:38:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3797
+2022.06.01 14:39:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:39:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:39:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:39:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:39:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:39:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:39:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:41:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:41:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:41:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:41:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:42:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:42:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:42:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:42:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:42:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:42:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Exception in thread "pool-3-thread-4" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:58)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:66)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:102)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 14:44:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:44:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:45:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:46:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:47:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:47:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:47:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:47:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:47:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:47:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:48:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:49:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Exception in thread "pool-3-thread-5" java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.base/java.util.TimSort.mergeHi(TimSort.java:903)
+	at java.base/java.util.TimSort.mergeAt(TimSort.java:520)
+	at java.base/java.util.TimSort.mergeCollapse(TimSort.java:448)
+	at java.base/java.util.TimSort.sort(TimSort.java:245)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at scala.collection.SeqOps.sorted(Seq.scala:700)
+	at scala.collection.SeqOps.sorted$(Seq.scala:692)
+	at scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	at scala.collection.immutable.List.sorted(List.scala:79)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:58)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:66)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:102)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 14:50:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:50:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:50:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:50:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:50:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:50:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:51:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:52:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:53:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:54:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:55:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:56:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:57:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:58:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:58:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:58:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:58:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Jun 01, 2022 2:58:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5757
+2022.06.01 14:58:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:58:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:58:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:59:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:59:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:59:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:59:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:59:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 14:59:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Jun 01, 2022 3:00:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala:27: error: unclosed string interpolation
+        (1 to n).flatMap (x => (0 to n).flatMap(y => if (x + y == v) then println(s"$x, y) else Vector.empty))
+                                                                                      ^
+java.util.concurrent.CompletionException: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala:27: error: unclosed string interpolation
+        (1 to n).flatMap (x => (0 to n).flatMap(y => if (x + y == v) then println(s"$x, y) else Vector.empty))
+                                                                                      ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala:27: error: unclosed string interpolation
+        (1 to n).flatMap (x => (0 to n).flatMap(y => if (x + y == v) then println(s"$x, y) else Vector.empty))
+                                                                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:694)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:283)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:188)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1467)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.01 15:00:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Jun 01, 2022 3:00:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala:27: error: unclosed string interpolation
+        (1 to n).flatMap (x => (0 to n).flatMap(y => if (x + y == v) then println(s"($x, $y) else Vector.empty))
+                                                                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:694)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:283)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:188)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2463)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2459)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1422)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1421)
+	... 15 more
+
+2022.06.01 15:00:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:00:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:01:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:01:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:01:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:01:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:01:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:07:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:07:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+Jun 01, 2022 3:07:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..5]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
