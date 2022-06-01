@@ -1,6 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala:311:45 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m311 |[0m            [33mcase[0m Branch(left, right) => left.max(right)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                        [31m^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |          value max is not a member of Chapter03.Chapter03P2.Tree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala:334:47 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m334 |[0m    println([31m"Exercise 3.28: "[0m + mapTree([36mx[0m => x + [31m1[0m, myTree1) + [31m"\n"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                             [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value + is not a member of Any, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |One of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import math.Fractional.Implicits.infixFractionalOps[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import math.Integral.Implicits.infixIntegralOps[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import math.Numeric.Implicits.infixNumericOps[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

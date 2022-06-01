@@ -311,11 +311,29 @@ object Chapter03P2 extends App {
             case Leaf(x) => x
             case Branch(left, right) => maxTree(left).max(maxTree(right))
 
-    println("Exercise 3.25: " + maxTree(myTree1))
-    println("Exercise 3.25: " + maxTree(myTree5))
-    println("Exercise 3.25: " + maxTree(myTree9) + "\n")
+    println("Exercise 3.26: " + maxTree(myTree1))
+    println("Exercise 3.26: " + maxTree(myTree5))
+    println("Exercise 3.26: " + maxTree(myTree9) + "\n")
 
     // Exercise 3.27
     def depthTree[A](tree: Tree[A]) : Int =
+        tree match
+            case Leaf(_) => 0
+            case Branch(left, right) => 1 + depthTree(left).max(depthTree(right))
+
+    println("Exercise 3.27: " + depthTree(myTree1))
+    println("Exercise 3.27: " + depthTree(myTree5))
+    println("Exercise 3.27: " + depthTree(myTree9) + "\n")
+
+    // Exercise 3.28
+    def mapTree[A, B](f: A => B, tree: Tree[A]) : Tree[B] =
+        tree match
+            case Leaf(x) => Leaf(f(x))
+            case Branch(left, right) => Branch(mapTree(f, left), mapTree(f, right))
+
+    println("Exercise 3.28: " + mapTree(x => x.toString, myTree1) + "\n")
+
+    // Exercise 3.29
+    def fold[B](f: A => B, g: (B,B) => B): B =
         ???
 }
