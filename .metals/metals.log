@@ -10456,3 +10456,1253 @@ Caused by: java.lang.IllegalArgumentException: 9 is not a valid line number, all
 	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
 	... 15 more
 
+Jun 01, 2022 3:07:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 6 is not a valid line number, allowed [0..5]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 15:07:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:07:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:07:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:07:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:07:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:15:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:15:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:16:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:16:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:16:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:16:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:17:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Exception in thread "pool-3-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 15:18:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:18:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 3:18:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6798
+2022.06.01 15:18:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 3:19:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6988
+2022.06.01 15:19:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 3:19:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7073
+2022.06.01 15:19:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:19:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:20:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:20:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala[0m
+2022.06.01 15:20:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:20:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:21:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:22:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:23:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:24:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:24:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:24:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:24:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+Jun 01, 2022 3:24:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 10 is not a valid line number, allowed [0..9]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.06.01 15:24:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+Jun 01, 2022 3:24:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala:3: error: Non-zero integral values may not have a leading zero.
+object Chapter03-02 extends App {
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:889)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:905)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:362)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:193)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2463)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2459)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1422)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1421)
+	... 15 more
+
+2022.06.01 15:24:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+Jun 01, 2022 3:24:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala:3: error: Non-zero integral values may not have a leading zero.
+object Chapter03-02 extends App {
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:889)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:905)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:362)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:193)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2463)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2459)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1422)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1421)
+	... 15 more
+
+Jun 01, 2022 3:24:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala:3: error: Non-zero integral values may not have a leading zero.
+object Chapter03-02 extends App {
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:889)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:905)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:362)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:193)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2463)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2459)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1422)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1421)
+	... 15 more
+
+2022.06.01 15:24:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+Jun 01, 2022 3:24:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala:3: error: Non-zero integral values may not have a leading zero.
+object Chapter03-02 extends App {
+                 ^
+java.util.concurrent.CompletionException: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala:3: error: Non-zero integral values may not have a leading zero.
+object Chapter03-02 extends App {
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala:3: error: Non-zero integral values may not have a leading zero.
+object Chapter03-02 extends App {
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:889)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:905)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:362)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:193)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1467)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.01 15:24:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:24:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:25:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:26:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:26:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:26:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:26:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:26:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:26:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:26:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03-2.scala[0m
+2022.06.01 15:27:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:27:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 3:28:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8012
+2022.06.01 15:28:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 3:28:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8173
+2022.06.01 15:28:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:28:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:29:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:30:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:31:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:32:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:33:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:34:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:35:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Exception in thread "pool-3-thread-7" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 15:36:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:36:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Exception in thread "pool-3-thread-8" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 15:37:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:37:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:38:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:39:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:40:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:44:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:45:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 3:46:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10586
+2022.06.01 15:46:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:46:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:47:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:49:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:50:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:51:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 3:52:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11606
+2022.06.01 15:52:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:52:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:53:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Exception in thread "pool-3-thread-9" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 15:53:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Exception in thread "pool-3-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 15:54:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:54:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Exception in thread "pool-3-thread-11" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 15:55:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:55:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:56:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Exception in thread "pool-3-thread-12" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2495)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:136)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted$$anonfun$1(PcDefinitionProvider.scala:106)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.PcDefinitionProvider.semanticSymbolsSorted(PcDefinitionProvider.scala:106)
+	at scala.meta.internal.pc.PcDefinitionProvider.findDefinitions(PcDefinitionProvider.scala:82)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitions(PcDefinitionProvider.scala:51)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.definition$$anonfun$1(ScalaPresentationCompiler.scala:113)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.01 15:57:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:57:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:58:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:59:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:59:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:59:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 15:59:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:00:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:01:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+Jun 01, 2022 4:02:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13220
+2022.06.01 16:02:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:02:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:03:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:06:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:06:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:06:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:06:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:06:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:07:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:07:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:07:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:07:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:07:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:09:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:10:41 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m
+2022.06.01 16:11:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter03.scala[0m

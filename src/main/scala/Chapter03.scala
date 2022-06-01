@@ -1,28 +1,28 @@
 package Chapter03
-import scala.{List => SList}
 
-sealed trait List[+A]
-case object Nil extends List[Nothing]
-case class Cons[+A](head: A, tail: List[A]) extends List[A]
+object Chapter03P1 extends App {
+    import scala.{List => SList}
 
-object List {
-    def apply[A](as: A*): List[A] =
-        if (as.isEmpty) Nil
-        else Cons(as.head, apply(as.tail: _*))
-}
+    sealed trait List[+A]
+    case object Nil extends List[Nothing]
+    case class Cons[+A](head: A, tail: List[A]) extends List[A]
 
-def sum(ints: List[Int]): Int = 
-    ints match
-        case Nil => 0
-        case Cons(h, t) => h + sum(t)
+    object List {
+        def apply[A](as: A*): List[A] =
+            if (as.isEmpty) Nil
+            else Cons(as.head, apply(as.tail: _*))
+    }
 
-def product(ds: List[Double]): Double =
-    ds match
-        case Nil => 1.0
-        case Cons(0.0, _) => 0.0
-        case Cons(x, xs) => x * product(xs)
+    def sum(ints: List[Int]): Int =
+        ints match
+            case Nil => 0
+            case Cons(h, t) => h + sum(t)
 
-object Chapter03 extends App {
+    def product(ds: List[Double]): Double =
+        ds match
+            case Nil => 1.0
+            case Cons(0.0, _) => 0.0
+            case Cons(x, xs) => x * product(xs)
 
     //Exercise 3.1
     val exercise = List(1, 2, 3, 4, 5) match {
@@ -77,9 +77,9 @@ object Chapter03 extends App {
 
     // Exercise 3.6
     def init[A](list: List[A]) : List[A] =
-            list match
-                case Cons(h, t) if (t != Nil) => Cons(h, init(t))
-                case _ => Nil
+        list match
+            case Cons(h, t) if (t != Nil) => Cons(h, init(t))
+            case _ => Nil
 
     println("Exercise 3.6: " + init(exampleList))
     println("Exercise 3.6: " + init(exampleList) + "\n")
@@ -139,6 +139,7 @@ object Chapter03 extends App {
     println("Exercise 3.12: " + reverse(exampleList3) + "\n")
 
     // Exercise 3.13
+    // TODO
 
     // Exercise 3.14
     def append[A](a1: List[A], a2: List[A]) : List[A] =
@@ -251,9 +252,70 @@ object Chapter03 extends App {
     println("Exercise 3.24: " + myListIntsShort.scanRight(0)(_ + _) + "\n")
     println("Exercise 3.24: " + myListChars.forall(x => x < 'Z'))
     println("Exercise 3.24: " + myListChars.exists(x => x == 'J') + "\n")
+}
+
+object Chapter03P2 extends App {
+    // Exercise 3.24
+    def foundSub[A](sup: List[A], sub: List[A]) : Boolean =
+        (sup, sub) match
+            case (_, Nil) => true
+            case (x :: xt, y :: yt) => 
+                if (x == y) then foundSub(xt, yt) 
+                else false
+            case (_, _) => false
+
+    def hasSubsequence[A](sup: List[A], sub: List[A]) : Boolean =
+        sup match
+            case (Nil) => false
+            case (h1 :: t1) =>
+                sub match
+                    case (Nil) => false
+                    case (h2 :: t2) => 
+                        if (h1 == h2) then
+                            if ((foundSub(sup, sub)) == true) then true 
+                            else hasSubsequence(t1, sub)
+                        else hasSubsequence(t1, sub)
+
+    println("Exercise 3.24: " + hasSubsequence(List(1, 2, 3, 4, 5), List(1)))
+    println("Exercise 3.24: " + hasSubsequence(List(1, 2, 3, 4, 5), List(1, 2)))
+    println("Exercise 3.24: " + hasSubsequence(List(1, 2, 3, 4, 5), List(2, 3)))
+    println("Exercise 3.24: " + hasSubsequence(List(2, 2, 3, 4, 5), List(2, 3)))
+    println("Exercise 3.24: " + hasSubsequence(List(2, 2, 3, 4, 5), List(2, 3, 4, 5)))
+    println("Exercise 3.24: " + hasSubsequence(List(1, 2, 3, 4, 5), List(4)) + "\n")
+
+    println("Exercise 3.24: " + hasSubsequence(List(1, 2, 3, 4, 5), List(0)))
+    println("Exercise 3.24: " + hasSubsequence(List(1, 2, 3, 4, 5), List(2, 2)))
+    println("Exercise 3.24: " + hasSubsequence(List(1, 2, 3, 4, 5), List(3, 2)) + "\n")
 
     // Exercise 3.25
-    def hasSubsequence[A](sup: List[A], sub: List[A]) : Boolean =
-        ???
+    sealed trait Tree[+A]
+    case class Leaf[A](value: A) extends Tree[A]
+    case class Branch[A](left: Tree[A], right: Tree[A]) extends Tree[A]
 
+    def treeSize[A](tree: Tree[A]) : Int =
+        tree match
+            case Leaf(_) => 1
+            case Branch(left, right) => 1 + treeSize(left) + treeSize(right)
+
+    val myTree1 = Leaf(1)
+    val myTree5 = Branch(Leaf(1), Branch(Leaf(2), Leaf(3)))
+    val myTree9 = Branch(Branch(Leaf(1), Leaf(2)), Branch(Branch(Leaf(3), Leaf(4)), Leaf(5)))
+
+    println("Exercise 3.25: " + treeSize(myTree1))
+    println("Exercise 3.25: " + treeSize(myTree5))
+    println("Exercise 3.25: " + treeSize(myTree9) + "\n")
+
+    // Exercise 3.26
+    def maxTree(tree: Tree[Int]) : Int =
+        tree match
+            case Leaf(x) => x
+            case Branch(left, right) => maxTree(left).max(maxTree(right))
+
+    println("Exercise 3.25: " + maxTree(myTree1))
+    println("Exercise 3.25: " + maxTree(myTree5))
+    println("Exercise 3.25: " + maxTree(myTree9) + "\n")
+
+    // Exercise 3.27
+    def depthTree[A](tree: Tree[A]) : Int =
+        ???
 }
