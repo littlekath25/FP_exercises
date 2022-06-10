@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(50cc06c6-c5fb-4d4b-a805-145818355694), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:8:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m    Console.printLine([31m"Hello, World!"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m  |    [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |    Found:    zio.ZIO[zio.Has[zio.Console], [1m[31mjava[0m[1m[31m.[0m[1m[31mio[0m[1m[31m.[0m[1m[31mIOException[0m, Unit][0m
+[0m[[0m[31merror[0m] [0m[0m  |    Required: zio.ZIO[zio.Has[zio.Console], [1m[32mNothing[0m, Unit][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed 10 Jun 2022, 15:19:23[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

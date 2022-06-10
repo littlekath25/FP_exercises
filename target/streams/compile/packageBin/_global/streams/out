@@ -1,5 +1,13 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/fp_excercises_3-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIO[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/ZIO[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIO/ZIO.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/ZIO/ZIO.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIO/ZIO$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/ZIO/ZIO$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ZIO/ZIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/ZIO/ZIO.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter02[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/Chapter02[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter02/Chapter02.class[0m

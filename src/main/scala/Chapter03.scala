@@ -334,6 +334,6 @@ object Chapter03P2 extends App {
     println("Exercise 3.28: " + mapTree(x => x.toString, myTree1) + "\n")
 
     // Exercise 3.29
-    def fold[B](f: A => B, g: (B,B) => B): B =
+    def fold[A, B](f: A => B, g: (B,B) => B): B =
         ???
 }
