@@ -12396,3 +12396,5 @@ Caused by: java.lang.IllegalArgumentException: 7 is not a valid line number, all
 2022.06.10 15:22:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
 2022.06.10 15:22:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
 2022.06.10 15:22:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 10, 2022 3:53:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
