@@ -38,7 +38,7 @@ object Address extends App {
 
   def splitAddressHouseNumber(addresses: List[Address]): List[Address] =
     addresses.map(address =>
-      val splitted: Array[String] = address.street.split("\\d")
+      val splitted: Array[String] = address.street.split("\\d", 2)
       Address(splitted.head.trim, Some(splitted.tail.mkString)))
 
   val solved = splitAddressHouseNumber(withoutDigits)
