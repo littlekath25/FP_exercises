@@ -28,19 +28,25 @@ object Address extends App {
       .map(line => ("(?i)" + line).r)
       .toList
 
+  // Addresss filter of addresses with a digit in the streetname
   def filterAddressesWithDigits(regexes: List[Regex], addresses: List[Address]): (List[Address], List[Address]) =
     addresses.partition(address => regexes.exists(_.findFirstIn(address.street) != None))
 
   val (withDigits, withoutDigits) = filterAddressesWithDigits(rules, input)
 
-  println(s"MATCHED:\n$withDigits\n")
-  println(s"UNMATCHED:\n$withoutDigits\n")
-
+  // Address filter of the address streetname and the rest
   def splitAddressHouseNumber(addresses: List[Address]): List[Address] =
     addresses.map(address =>
-      val splitted: Array[String] = address.street.split("\\d", 2)
+      val splitted: Array[String] = address.street.split("(?=\\d)", 2)
       Address(splitted.head.trim, Some(splitted.tail.mkString)))
 
   val solved = splitAddressHouseNumber(withoutDigits)
+
+  // Housenumber filter of the house number and house number addition
+  def splitHouseNumber(addresses: List[Address]): List[Address] =
+    ???
+
+  println(s"MATCHED:\n$withDigits\n")
+  println(s"UNMATCHED:\n$withoutDigits\n")
   println(s"SOLVED:\n$solved\n")
 }
