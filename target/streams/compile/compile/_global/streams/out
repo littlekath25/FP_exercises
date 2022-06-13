@@ -1,6 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:16:10 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m  println(regexes)[0m
-[0m[[0m[31merror[0m] [0m[0m   |          [31m^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |          Not found: regexes[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:32:23 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m    addresses.partition([36maddress[0m => regexes.exists(_.findFirstIn(address.street) != None))[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Found:    (List[[1m[31mAddress[0m], List[[1m[31mAddress[0m])[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Required: (List[[1m[32mString[0m], List[[1m[32mString[0m])[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
