@@ -31,8 +31,16 @@ object Address extends App {
   def filterAddressesWithDigits(regexes: List[Regex], addresses: List[Address]): (List[Address], List[Address]) =
     addresses.partition(address => regexes.exists(_.findFirstIn(address.street) != None))
 
-  val (matched, unmatched) = filterAddressesWithDigits(rules, input)
+  val (withDigits, withoutDigits) = filterAddressesWithDigits(rules, input)
 
-  println(s"MATCHED:\n$matched\n")
-  println(s"UNMATCHED:\n$unmatched\n")
+  println(s"MATCHED:\n$withDigits\n")
+  println(s"UNMATCHED:\n$withoutDigits\n")
+
+  def splitAddressHouseNumber(addresses: List[Address]): List[Address] =
+    addresses.map(address =>
+      val splitted: Array[String] = address.street.split("\\d")
+      Address(splitted.head.trim, Some(splitted.tail.mkString)))
+
+  val solved = splitAddressHouseNumber(withoutDigits)
+  println(s"SOLVED:\n$solved\n")
 }

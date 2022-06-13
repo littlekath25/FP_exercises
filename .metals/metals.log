@@ -15835,3 +15835,344 @@ Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala
 2022.06.13 16:07:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
 2022.06.13 16:07:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
 2022.06.13 16:07:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:07:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:07:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:07:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:07:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:07:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:07:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 13, 2022 4:08:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4806
+2022.06.13 16:08:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:08:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:09:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 13, 2022 4:10:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5038
+2022.06.13 16:10:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:31 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:10:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:11:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:12:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:12:48 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:12:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:12:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:12:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:12:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:13:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:15:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:11 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:16:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:17:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 13, 2022 4:17:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5637
+2022.06.13 16:17:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:17:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:18:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 13, 2022 4:18:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:40: error: invalid escape character
+    addresses.map(address => address.street.split("\d"))
+                                                    ^
+java.util.concurrent.CompletionException: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:40: error: invalid escape character
+    addresses.map(address => address.street.split("\d"))
+                                                    ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:40: error: invalid escape character
+    addresses.map(address => address.street.split("\d"))
+                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:781)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:769)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:790)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:583)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:406)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:188)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.13 16:18:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:18:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:26 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:32 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:39 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:19:48 INFO  time: code lens generation in 2.15s[0m
+2022.06.13 16:19:48 INFO  time: code lens generation in 2.15s[0m
+2022.06.13 16:19:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:20:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 13, 2022 4:21:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6120
+2022.06.13 16:21:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:19 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:20 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:35 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:46 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:47 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:21:50 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:17 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:33 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:34 INFO  time: code lens generation in 1.65s[0m
+2022.06.13 16:22:34 INFO  time: code lens generation in 1.65s[0m
+Jun 13, 2022 4:22:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6315
+Jun 13, 2022 4:22:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6324
+2022.06.13 16:22:37 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:22:51 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:23:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:23:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:23:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:23:38 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:03 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:24 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:25 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:29 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:40 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:43 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:52 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:24:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 13, 2022 4:24:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:40: error: unclosed string literal
+    addresses.map(address => Address(address.street.split("\\d").head.trim, Some("19)))
+                                                                                 ^
+java.util.concurrent.CompletionException: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:40: error: unclosed string literal
+    addresses.map(address => Address(address.street.split("\\d").head.trim, Some("19)))
+                                                                                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: file:///Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:40: error: unclosed string literal
+    addresses.map(address => Address(address.street.split("\\d").head.trim, Some("19)))
+                                                                                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:590)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:406)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:274)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:188)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1477)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.06.13 16:24:59 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:25:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:25:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:25:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:15 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:21 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:23 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:28 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:42 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:26:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:00 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:54 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:27:58 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:28:07 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:28:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:28:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:28:16 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:29:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:29:05 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:29:12 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:29:14 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:30:22 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:30:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:30:49 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:31:36 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:31:44 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:31:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:32:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:32:55 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:32:56 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:33:02 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:33:04 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:33:09 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:33:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+Jun 13, 2022 4:33:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7269
+2022.06.13 16:33:53 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:33:57 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:34:01 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:34:06 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:34:10 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:35:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:35:13 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:36:30 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:36:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:37:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:37:08 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
+2022.06.13 16:37:27 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala[0m
