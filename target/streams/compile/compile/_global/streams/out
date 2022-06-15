@@ -1,13 +1,16 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:45:47 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m    println(address.house_number.contains([31m"-"[0m) + [31m"HOUSE NUMBER: "[0m + address.house_number)[0m
-[0m[[0m[31merror[0m] [0m[0m   |            [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |value + is not a member of Boolean, but could be made available as an extension method.[0m
-[0m[[0m[31merror[0m] [0m[0m   |[0m
-[0m[[0m[31merror[0m] [0m[0m   |One of the following imports might make progress towards fixing the problem:[0m
-[0m[[0m[31merror[0m] [0m[0m   |[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import math.Fractional.Implicits.infixFractionalOps[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import math.Integral.Implicits.infixIntegralOps[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import math.Numeric.Implicits.infixNumericOps[0m
-[0m[[0m[31merror[0m] [0m[0m   |[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/AddressNew.scala:21:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m    originalAddress.copy(house_number =  Some(splitted.head), house_number_addition = Some(splitted.tail.mkString))[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Found:    addressNew.[1m[31mAddress[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Required: addressNew.[1m[32mAddressFixer[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/AddressNew.scala:42:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m42 |[0m      originalAddress.copy(street = streetName, house_number = Some(houseNumber))[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      Found:    addressNew.[1m[31mAddress[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      Required: addressNew.[1m[32mAddressFixer[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/AddressNew.scala:46:8 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m46 |[0m    [33mif[0m (addressContainsHouseNumber(splitted))[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        Not found: addressContainsHouseNumber[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
