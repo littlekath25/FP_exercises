@@ -1,4 +1,5 @@
-val scala3Version = "3.1.1"
+val scala3Version       = "3.1.1"
+val scalaTestVersion    = "3.2.11"
 
 lazy val root = project
   .in(file("."))
@@ -12,5 +13,6 @@ lazy val root = project
     libraryDependencies += "dev.zio"        %% "zio"          % "2.0.0-M4",
     libraryDependencies += "dev.zio"        %% "zio-streams"  % "2.0.0-M4",
     libraryDependencies += "org.apache.avro" % "avro"         % "1.11.0",
-    libraryDependencies += "com.sksamuel.avro4s" %% "avro4s-core" % "5.0.0"
+    libraryDependencies += "com.sksamuel.avro4s" %% "avro4s-core" % "5.0.0",
+    libraryDependencies += "org.scalatest"  %% "scalatest"     % scalaTestVersion % "test",
   )

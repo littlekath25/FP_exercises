@@ -12,35 +12,46 @@ import scala.jdk.CollectionConverters._
 
 final case class Address(street: String, house_number: Option[String] = None, house_number_addition: Option[String] = None, postal_code: Option[String] = None, city: String, country: String)
 
-final case class AddressFixer(original: Address, street: String, house_number: Option[String] = None, house_number_addition: Option[String] = None, postal_code: Option[String] = None, city: String, country: String)
+final case class AddressFixer(original: Address, street: Option[String] = None, house_number: Option[String] = None, house_number_addition: Option[String] = None)
 {
-  def checkAddress: Boolean =
-    addressIsInvalid && addressContainsHouseNumber
+  private def checkAddress: Boolean =
+    addressIsInvalid && addressContainsHouseNumber && addressIsNotException
 
   // Check if the address is valid for correction
   private def addressContainsHouseNumber: Boolean =
-    street.exists(_.isDigit)
+    original.street.exists(_.isDigit)
+
+  private def addressIsNotException: Boolean =
+    val rules: List[Regex] =
+      Source
+        .fromResource("splitsstraathuisnr.ini")
+        .getLines
+        .map(line => ("(?i)" + line).r)
+        .toList
+
+    rules.exists(_.findFirstIn(original.street) == None)
 
   // Rules to check if address is valid for correction
-  private def addressIsInvalid : Boolean =
+  private def addressIsInvalid: Boolean =
     original.house_number == None &&
     original.street != "N/A" &&
     original.country == "NL"
 
     // Address filter of the address streetname and the rest
   def splitAddressHouseNumber: AddressFixer =
-    val splitted = street.split("(?=\\d)", 2).map(_.trim)
-    val streetName = splitted.head
-    val houseNumber = splitted(1)
-    this.copy(street = streetName, house_number = Some(houseNumber))
+    if (checkAddress)
+      val splitted = original.street.split("(?=\\d)", 2).map(_.trim)
+      this.copy(street = Some(splitted.head), house_number = Some(splitted(1)))
+    else
+      this
 
     // Housenumber filter of the house number and house number addition
   def extractAdditionFromHouseNumber: AddressFixer =
-    if (house_number.contains(" "))
+    if (house_number.exists(_.contains(" ")))
       splitHouseNumberAndAddition(" ")
-    else if (house_number.contains("-"))
+    else if (house_number.exists(_.contains("-")))
       splitHouseNumberAndAddition("-")
-    else if (house_number.get.exists(_.isLetter))
+    else if (house_number.exists(_.exists(_.isLetter)))
       splitHouseNumberAndAddition("(?=\\D)")
     else
       this
@@ -52,36 +63,35 @@ final case class AddressFixer(original: Address, street: String, house_number: O
 
   def fix: Address =
     original.copy(
-      street = street,
-      house_number = house_number,
-      house_number_addition = house_number_addition,
-      postal_code = postal_code,
-      city = city,
-      country = country)
+      street = street.getOrElse(original.street),
+      house_number = house_number.orElse(original.house_number),
+      house_number_addition = house_number_addition.orElse(original.house_number_addition)
+    )
 }
 
 object Main extends App {
-  val rules: List[Regex] =
-      Source
-        .fromResource("splitsstraathuisnr.ini")
-        .getLines
-        .map(line => ("(?i)" + line).r)
-        .toList
-
   val schema = AvroSchema[Address]
-  val inputStream = AvroInputStream.data[Address].from(getClass.getResourceAsStream("address-testset-prod-uncompressed.avro")).build(schema)
+  val inputStream = AvroInputStream.data[Address].from(getClass.getResourceAsStream("address-testset-uncompressed.avro")).build(schema)
   val inputIterator = inputStream.iterator
   val input = List.from(inputIterator)
   inputStream.close()
 
-  // Addresss filter of addresses with a digit in the streetname
-  def filterAddressesWithDigits(rules: List[Regex], addresses: List[Address]): (List[Address], List[Address]) =
-    addresses.partition(address => rules.exists(_.findFirstIn(address.street) != None))
+  val test = Address("Archipel 26 8-10", None, None, Some("3521AT"), "Utrecht", "NL")
+  val edge = List(
+    Address("Archipel 26 8-10", None, None, Some("3521AT"), "Utrecht", "NL"), 
+    Address("Plein 1988 12", None, None, Some("3521AT"), "Utrecht", "NL"), 
+    Address("SINGEL 1940-1945 1B", None, None, Some("3521AT"), "Utrecht", "NL"), 
+    Address("a76", None, None, Some("3521AT"), "Utrecht", "NL"))
+  
+  // println(edge.map(address =>
+  //   AddressFixer(address)
+  //   .splitAddressHouseNumber
+  //   .extractAdditionFromHouseNumber
+  //   .fix))
 
-  val (withDigits, withoutDigits) = filterAddressesWithDigits(rules, input)
-  val testAddress = withoutDigits.head
-  val solved = AddressFixer(testAddress, testAddress.street, None, None, testAddress.postal_code, testAddress.city, testAddress.country)
-
-  println(s"result: ${solved.checkAddress.splitAddressHouseNumber.extractAdditionFromHouseNumber}")
-
+  println(
+  AddressFixer(test)
+    .splitAddressHouseNumber
+    .extractAdditionFromHouseNumber
+    .fix)
 }

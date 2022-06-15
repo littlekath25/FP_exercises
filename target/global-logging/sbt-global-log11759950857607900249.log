@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(84168449-881e-401a-823d-f79c63b3de46), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddressTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddress tests[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Already good[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Edge cases[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- No house number in address[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Fixed *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Address(Veilinghavenkade 9,None,None,Some(3521AT),Utrecht,NL) did not equal Address(Veilinghavenkade,Some(9),None,Some(3521AT),Utrecht,NL) (addressTest.scala:53)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Address(house_number: None$(value: -> 9), street: "Veilinghavenkade[ 9]" -> "Veilinghavenkade[]")[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Other country[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- N/A addresses[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 69 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	AddressTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 15 Jun 2022, 15:53:55[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
