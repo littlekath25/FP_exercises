@@ -1,20 +1,16 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AddressTests, org.scalatest.tools.Framework$$anon$1@170c3412, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AddressTests, org.scalatest.tools.Framework$$anon$1@453d3d5, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAddressTests:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAddress tests[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Already good[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- Edge cases *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  Address(Archipel,Some(26),Some(8-10),Some(3521AT),Utrecht,NL) did not equal Address(Archipel 26 8-10,None,None,Some(3521AT),Utrecht,NL) (addressTest.scala:41)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  Address(house_number: Some(value: 26 -> ), house_number_addition: Some(value: 8-10 -> ), street: "Archipel[]" -> "Archipel[ 26 8-10]")[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Edge cases[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- No house number in address[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Fixed[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Other country[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- N/A addresses[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 69 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 59 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 1, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
-[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
-[0m[[0m[31merror[0m] [0m[0m	AddressTests[0m
-[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddressTests[0m

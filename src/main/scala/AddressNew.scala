@@ -15,21 +15,20 @@ final case class Address(street: String, house_number: Option[String] = None, ho
 final case class AddressFixer(original: Address, street: Option[String] = None, house_number: Option[String] = None, house_number_addition: Option[String] = None)
 {
   private def checkAddress: Boolean =
-    addressIsInvalid && addressContainsHouseNumber && addressIsNotException
+    addressIsInvalid && addressContainsHouseNumber && !addressIsException
 
   // Check if the address is valid for correction
   private def addressContainsHouseNumber: Boolean =
     original.street.exists(_.isDigit)
 
-  private def addressIsNotException: Boolean =
+  private def addressIsException: Boolean =
     val rules: List[Regex] =
       Source
         .fromResource("splitsstraathuisnr.ini")
         .getLines
         .map(line => ("(?i)" + line).r)
         .toList
-
-    rules.exists(_.findFirstIn(original.street) == None)
+    rules.exists(_.findFirstIn(original.street) != None)
 
   // Rules to check if address is valid for correction
   private def addressIsInvalid: Boolean =
@@ -76,12 +75,12 @@ object Main extends App {
   val input = List.from(inputIterator)
   inputStream.close()
 
-  val test = Address("Archipel 26 8-10", None, None, Some("3521AT"), "Utrecht", "NL")
-  val edge = List(
-    Address("Archipel 26 8-10", None, None, Some("3521AT"), "Utrecht", "NL"), 
-    Address("Plein 1988 12", None, None, Some("3521AT"), "Utrecht", "NL"), 
-    Address("SINGEL 1940-1945 1B", None, None, Some("3521AT"), "Utrecht", "NL"), 
-    Address("a76", None, None, Some("3521AT"), "Utrecht", "NL"))
+  // val test = Address("Archipel 26 8-10", None, None, Some("3521AT"), "Utrecht", "NL")
+  // val edge = List(
+  //   Address("Archipel 26 8-10", None, None, Some("3521AT"), "Utrecht", "NL"), 
+  //   Address("Plein 1988 12", None, None, Some("3521AT"), "Utrecht", "NL"), 
+  //   Address("SINGEL 1940-1945 1B", None, None, Some("3521AT"), "Utrecht", "NL"), 
+  //   Address("a76", None, None, Some("3521AT"), "Utrecht", "NL"))
   
   // println(edge.map(address =>
   //   AddressFixer(address)
@@ -89,9 +88,16 @@ object Main extends App {
   //   .extractAdditionFromHouseNumber
   //   .fix))
 
-  println(
-  AddressFixer(test)
-    .splitAddressHouseNumber
-    .extractAdditionFromHouseNumber
-    .fix)
+  // println(
+  // AddressFixer(test)
+  //   .splitAddressHouseNumber
+  //   .extractAdditionFromHouseNumber
+  //   .fix)
+
+  val rules1: List[Regex] =
+      Source
+        .fromResource("splitsstraathuisnr.ini")
+        .getLines
+        .map(line => ("(?i)" + line).r)
+        .toList
 }
