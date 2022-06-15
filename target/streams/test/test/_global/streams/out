@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AddressTests, org.scalatest.tools.Framework$$anon$1@5e90accc, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AddressTests, org.scalatest.tools.Framework$$anon$1@39dfa704, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAddressTests:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAddress tests[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Already good[0m[0m
@@ -7,7 +7,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- Fixed[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Other country[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- N/A addresses[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 59 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 203 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m

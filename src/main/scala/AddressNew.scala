@@ -66,26 +66,7 @@ object Main extends App {
   val schema = AvroSchema[Address]
   val inputStream = AvroInputStream.data[Address].from(getClass.getResourceAsStream("address-testset-uncompressed.avro")).build(schema)
   val inputIterator = inputStream.iterator
-  val input = List.from(inputIterator)
+  val input = LazyList.from(inputIterator)
   inputStream.close()
-
-  val rules: List[Regex] =
-      Source
-        .fromResource("splitsstraathuisnr.ini")
-        .getLines
-        .map(line => ("(?i)" + line).r)
-        .toList
-
-  val edge = List(
-    Address("Archipel 26 8-10", None, None, Some("3521AT"), "Utrecht", "NL"), 
-    Address("Plein 1988 12", None, None, Some("3521AT"), "Utrecht", "NL"), 
-    Address("SINGEL 1940-1945 1B", None, None, Some("3521AT"), "Utrecht", "NL"), 
-    Address("a76", None, None, Some("3521AT"), "Utrecht", "NL"))
   
-  println(edge.map(address =>
-    AddressFixer(address, rules)
-    .splitAddressHouseNumber
-    .extractAdditionFromHouseNumber
-    .fix))
-
 }
