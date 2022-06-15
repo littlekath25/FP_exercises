@@ -1,2 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/katherine/Desktop/Projecten/FP_exercises/src/main/resources/address-testset-uncompressed.avro,/Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/address-testset-uncompressed.avro)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/katherine/Desktop/Projecten/FP_exercises/src/main/resources/splitsstraathuisnr.ini,/Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/splitsstraathuisnr.ini)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/katherine/Desktop/Projecten/FP_exercises/src/main/resources/address-testset-prod-uncompressed.avro,/Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/address-testset-prod-uncompressed.avro)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/katherine/Desktop/Projecten/FP_exercises/src/main/resources/address-testset.avro,/Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/address-testset.avro)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/katherine/Desktop/Projecten/FP_exercises/src/main/resources/test.txt,/Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes/test.txt)[0m

@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(050190b1-a2e7-4608-9a13-1e7af2bfb299), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/katherine/Desktop/Projecten/FP_exercises/target/scala-3.1.1/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 4 s, completed 14 Jun 2022, 10:47:48[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

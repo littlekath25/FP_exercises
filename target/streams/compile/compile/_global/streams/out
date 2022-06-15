@@ -1,18 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:51:61 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m51 |[0m          [33mval[0m [36msplitted[0m: [35mArray[String][0m = address.house_number.split([31m"(?= )"[0m, [31m2[0m))[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                        [31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |value split is not a member of Option[String] - did you mean house_number.wait?[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:52:18 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m          Address(address.street, splitted.head.trim, Some(splitted.tail.mkString))[0m
-[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |                  Not found: address[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:52:34 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m          Address(address.street, splitted.head.trim, Some(splitted.tail.mkString))[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                  [31m^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                  Not found: splitted[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:52:59 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m          Address(address.street, splitted.head.trim, Some(splitted.tail.mkString))[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                                           [31m^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                                     Not found: splitted[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/ZIO.scala:45:47 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m    println(address.house_number.contains([31m"-"[0m) + [31m"HOUSE NUMBER: "[0m + address.house_number)[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value + is not a member of Boolean, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |One of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Fractional.Implicits.infixFractionalOps[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Integral.Implicits.infixIntegralOps[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import math.Numeric.Implicits.infixNumericOps[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
