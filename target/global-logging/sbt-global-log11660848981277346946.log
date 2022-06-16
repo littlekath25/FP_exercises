@@ -1,7 +1,6 @@
-[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
-[0m[[0m[0mdebug[0m] [0m[0mUpdating ...[0m
-[0m[[0m[0minfo[0m] [0m[0mUpdating [0m
-[0m[[0m[0minfo[0m] [0m[0mResolved  dependencies[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
 [0m[[0m[33mwarn[0m] [0m[0m[0m
 [0m[[0m[33mwarn[0m] [0m[0m	Note: Unresolved dependencies path:[0m
 [0m[[0m[31merror[0m] [0m[0msbt.librarymanagement.ResolveException: Error downloading com.typesafe.play:play-json_3:2.9.2[0m
@@ -44,3 +43,5 @@
 [0m[[0m[31merror[0m] [0m[0m  Not found[0m
 [0m[[0m[31merror[0m] [0m[0m  not found: /Users/katherine/.ivy2/localcom.typesafe.play/play-json_3/2.9.2/ivys/ivy.xml[0m
 [0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/com/typesafe/play/play-json_3/2.9.2/play-json_3-2.9.2.pom[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 16 Jun 2022, 11:43:25[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

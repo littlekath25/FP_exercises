@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(47d80753-9eee-4910-afed-629c3668a8ce), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddressTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddress tests[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Already good[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Edge cases[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- No house number in address[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Fixed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Other country[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- N/A addresses[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 227 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 16 Jun 2022, 11:16:50[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

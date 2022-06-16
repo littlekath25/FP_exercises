@@ -12,6 +12,26 @@ import scala.jdk.CollectionConverters._
 
 final case class Address(street: String, house_number: Option[String] = None, house_number_addition: Option[String] = None, postal_code: Option[String] = None, city: String, country: String)
 
+object Address
+{
+  implicit val addressWrites: Writes[Address] = (address: Address) =>
+    Json.obj(
+      "street"                  -> JsString(address.street),
+      "house_number"            -> JsString(address.house_number),
+      "house_number_addition"   -> JsString(address.house_number_addition),
+      "postal_code"             -> JsString(address.postal_code),
+      "city"                    -> JsString(address.city),
+      "country"                 -> JsString(address.country)
+    )
+
+  implicit val addressReades: Reads[Address] = ((JsPath \ "messageVersion ").read[String] and
+    (JsPath \ "messageId").read[String] and
+    (JsPath \ "terminalId").read[String] and
+    (JsPath \ "message").read[String]) { (messageVersion, messageId, terminalId, messages) =>
+    Iftmin(messageVersion.toLong, UUID.fromString(messageId), terminalId, messages)
+  }
+}
+
 final case class AddressFixer(original: Address, rules: List[Regex], street: Option[String] = None, house_number: Option[String] = None, house_number_addition: Option[String] = None)
 {
   private def checkAddress: Boolean =
@@ -22,11 +42,11 @@ final case class AddressFixer(original: Address, rules: List[Regex], street: Opt
     original.street.exists(_.isDigit)
 
   private def addressIsException: Boolean =
-    rules.exists(_.findFirstIn(original.street) != None)
+    rules.exists(_.findFirstIn(original.street).isDefined)
 
   // Rules to check if address is valid for correction
   private def addressIsInvalid: Boolean =
-    original.house_number == None &&
+    original.house_number.isEmpty &&
     original.street != "N/A" &&
     original.country == "NL"
 
@@ -66,7 +86,6 @@ object Main extends App {
   val schema = AvroSchema[Address]
   val inputStream = AvroInputStream.data[Address].from(getClass.getResourceAsStream("address-testset-uncompressed.avro")).build(schema)
   val inputIterator = inputStream.iterator
-  val input = LazyList.from(inputIterator)
+  val input = List.from(inputIterator)
   inputStream.close()
-  
 }
