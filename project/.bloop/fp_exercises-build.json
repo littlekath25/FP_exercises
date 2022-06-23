@@ -199,7 +199,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/opt/homebrew/Cellar/openjdk/17.0.2/libexec/openjdk.jdk/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/katherine/Desktop/Projecten/FP_exercises/project"
                 ]
