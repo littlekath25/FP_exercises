@@ -728,3 +728,72 @@ WARNING: Unmatched cancel notification for request id 2
 2022.06.23 14:16:27 INFO  time: code lens generation in 2.76s
 2022.06.23 14:16:27 INFO  time: code lens generation in 2.8s
 2022.06.23 14:16:27 INFO  time: code lens generation in 10s
+2022.06.23 17:28:15 INFO  shutting down Metals
+2022.06.23 17:52:36 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/katherine/Desktop/Projecten/FP_exercises/.metals/lsp.trace.json or /Users/katherine/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.23 17:52:37 INFO  logging to file /Users/katherine/Desktop/Projecten/FP_exercises/.metals/metals.log
+2022.06.23 17:52:37 INFO  Started: Metals version 0.11.6 in workspace '/Users/katherine/Desktop/Projecten/FP_exercises' for client Visual Studio Code 1.68.1.
+2022.06.23 17:52:38 INFO  time: initialize in 0.92s
+2022.06.23 17:52:38 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.23 17:52:38 WARN  Build server is not auto-connectable.
+2022.06.23 17:52:39 INFO  skipping build import with status 'Installed'
+2022.06.23 17:52:45 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/test/scala/addressTest.scala
+Jun 23, 2022 5:52:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 23, 2022 5:52:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.06.23 17:52:47 INFO  shutting down Metals
+2022.06.23 17:52:54 INFO  no build target found for /Users/katherine/Desktop/Projecten/FP_exercises/src/test/scala/addressTest.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.23 17:52:54 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@256ecaf4[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 135]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.23 17:52:58 WARN  resetting database: /Users/katherine/Desktop/Projecten/FP_exercises/.metals/metals.h2.db
+2022.06.25 23:47:26 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/katherine/Desktop/Projecten/FP_exercises/.metals/lsp.trace.json or /Users/katherine/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.06.25 23:47:27 INFO  logging to file /Users/katherine/Desktop/Projecten/FP_exercises/.metals/metals.log[0m
+2022.06.25 23:47:27 INFO  Started: Metals version 0.11.6 in workspace '/Users/katherine/Desktop/Projecten/FP_exercises' for client Visual Studio Code 1.68.1.[0m
+2022.06.25 23:47:28 INFO  time: initialize in 0.75s[0m
+2022.06.25 23:47:28 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.25 23:47:28 WARN  Build server is not auto-connectable.[0m
+2022.06.25 23:47:29 INFO  skipping build import with status 'Installed'[0m
+2022.06.25 23:47:34 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/test/scala/addressTest.scala[0m
+Jun 25, 2022 11:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.UnsupportedOperationException: tail of empty list
+java.util.concurrent.CompletionException: java.lang.UnsupportedOperationException: tail of empty list
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.UnsupportedOperationException: tail of empty list
+	at scala.collection.immutable.Nil$.tail(List.scala:664)
+	at scala.collection.immutable.Nil$.tail(List.scala:661)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$endPosOfTree$1(CreateCompanionObjectCodeAction.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.endPosOfTree(CreateCompanionObjectCodeAction.scala:74)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$5(CreateCompanionObjectCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$4(CreateCompanionObjectCodeAction.scala:57)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$2(CreateCompanionObjectCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$1(CreateCompanionObjectCodeAction.scala:54)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
