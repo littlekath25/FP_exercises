@@ -979,3 +979,16 @@ WARNING: Unmatched cancel notification for request id 28
 2022.06.28 15:25:31 INFO  no build target found for /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
 2022.06.28 15:25:34 INFO  time: code lens generation in 10s[0m
 2022.06.28 15:25:34 INFO  time: code lens generation in 10s[0m
+2022.06.28 15:26:19 INFO  shutting down Metals[0m
+2022.06.29 09:02:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/katherine/Desktop/Projecten/FP_exercises/.metals/lsp.trace.json or /Users/katherine/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.29 09:02:11 INFO  logging to file /Users/katherine/Desktop/Projecten/FP_exercises/.metals/metals.log
+2022.06.29 09:02:11 INFO  Started: Metals version 0.11.6 in workspace '/Users/katherine/Desktop/Projecten/FP_exercises' for client Visual Studio Code 1.68.1.
+2022.06.29 09:02:12 INFO  time: initialize in 0.83s
+2022.06.29 09:02:12 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.29 09:02:12 WARN  Build server is not auto-connectable.
+2022.06.29 09:02:13 INFO  skipping build import with status 'Installed'
+2022.06.29 09:02:18 WARN  no build target for: /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala
+2022.06.29 09:02:25 INFO  no build target found for /Users/katherine/Desktop/Projecten/FP_exercises/src/main/scala/Chapter04.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.29 09:02:27 INFO  time: code lens generation in 8.85s
+2022.06.29 09:02:27 INFO  time: code lens generation in 8.85s
+2022.06.29 09:03:03 INFO  shutting down Metals
