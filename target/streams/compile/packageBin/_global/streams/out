@@ -12,8 +12,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ebook[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ebook/Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ebook/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ebook/ebook$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ebook/ebook$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ebook/ebook$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ebook/ebook$package.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ebook/Main.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ebook/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ebook/ebook$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ebook/ebook$package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ebook/Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ebook/Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Chapter03[0m
@@ -100,4 +106,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ownGen/RNG.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ownGen/Gen$package.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/ownGen/Gen$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	text.txt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/katherine/Desktop/playground/target/scala-3.1.1/classes/text.txt[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

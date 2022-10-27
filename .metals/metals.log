@@ -1171,3 +1171,261 @@ WARNING: Unmatched cancel notification for request id 1791
 2022.10.27 20:15:26 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
 2022.10.27 20:15:32 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
 2022.10.27 20:15:32 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:15:44 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:15 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:18 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:20 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:21 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:21 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:44 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:49 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:16:59 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:11 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:15 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:18 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:29 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:33 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:36 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:41 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:43 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:48 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:17:58 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:00 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:11 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:15 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:18 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:20 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:26 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:43 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:18:49 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:18:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2919
+2022.10.27 20:18:58 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:19:21 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:19:27 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:19:29 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:19:31 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:19:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3029
+2022.10.27 20:19:43 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:19:56 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:03 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:06 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:09 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:13 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:16 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:27 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:34 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:38 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:44 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:44 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:57 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:20:59 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:03 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:07 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:29 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:31 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:41 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:51 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:56 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:21:57 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:09 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:10 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:21 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:24 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:32 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:34 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:36 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:39 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:40 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:46 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:46 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:22:55 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:03 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:07 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:10 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:12 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:12 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scalaOct 27, 2022 8:23:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3739
+
+2022.10.27 20:23:13 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:12 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:13 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:13 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:13 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:23:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3743
+2022.10.27 20:23:13 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:13 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:33 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:34 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:40 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:42 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:51 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:23:54 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:02 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:07 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:07 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:24:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3920
+2022.10.27 20:24:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:28 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:30 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3972
+2022.10.27 20:24:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3975
+2022.10.27 20:24:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3976
+2022.10.27 20:24:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:46 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:48 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:54 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:54 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:57 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:24:58 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:03 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:09 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:12 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:15 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:20 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:25 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:26 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:28 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:25:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4113
+2022.10.27 20:25:28 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:25:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4114
+Exception in thread "pool-3-thread-1" 2022.10.27 20:25:28 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Oct 27, 2022 8:25:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4117
+2022.10.27 20:25:28 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:28 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:25:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4118
+2022.10.27 20:25:28 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:41 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:43 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:44 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:48 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:49 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:52 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:25:55 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:26:01 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:26:05 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:26:10 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:26:10 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:26:10 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.27 20:26:10 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:26:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4206
+2022.10.27 20:26:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:26:39 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:02 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:09 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:27:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4409
+2022.10.27 20:27:11 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.27 20:27:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:29 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:29 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:34 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:35 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:43 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:52 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:54 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:27:59 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:06 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:09 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:09 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:10 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:20 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:21 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:21 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:28:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4568
+Oct 27, 2022 8:28:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4569
+2022.10.27 20:28:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:31 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:31 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:28:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4595
+2022.10.27 20:28:31 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+Oct 27, 2022 8:28:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4598
+2022.10.27 20:28:34 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:40 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:43 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:47 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:47 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:50 INFO  time: code lens generation in 2.53s
+2022.10.27 20:28:55 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:55 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:55 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:28:56 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:08 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:09 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:11 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:11 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:11 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:12 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:12 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:20 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:20 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:20 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:22 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:23 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:29 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:30 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:31 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:31 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:32 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:32 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:32 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:33 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:39 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:41 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:48 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:55 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
+2022.10.27 20:29:55 WARN  no build target for: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala
