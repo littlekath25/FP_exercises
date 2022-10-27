@@ -1,0 +1,6 @@
+#FileLock
+#Thu Oct 27 19:44:50 CEST 2022
+server=localhost\:60000
+hostName=localhost
+method=file
+id=1841a8bf534836d88e5c4173ebec54ef17def11f252
