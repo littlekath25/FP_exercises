@@ -1,8 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala:1:8 -[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m1 |[0m[33mpackage[0m ebook[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |[33m^^^^^^^^^^^^^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |No class, trait or object is defined in the compilation unit.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |The incremental compiler cannot record the dependency information in such case.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |Some errors like unused import referring to a non-existent class might not be reported.[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala:10:52 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m    [33mval[0m [36mlowerWords[0m = convertToLowerCase(listOfWords)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   Required: collection.immutable.VectorMap[String, Int][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
