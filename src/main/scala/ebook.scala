@@ -1,16 +1,25 @@
 package ebook
 import scala.collection.immutable.VectorMap
 import scala.io.Source
+import scala.util.{Try, Success, Failure}
+import scala.util.control.Exception.allCatch
 
 def wc(document: String): VectorMap[String, Int] = 
-  val docWithoutNewLines = replaceNewLinesWithSpaces(document)
-  val docWithoutFormatting = stripFormattingCharacters(docWithoutNewLines)
-  val docuWithoutDoubleSpaces = stripDoubleSpaces(docWithoutFormatting)
-  val listOfWords = convertToSequence(docuWithoutDoubleSpaces)
-  val lowerWords = convertToLowerCase(listOfWords)
-  val mapOfWords = convertToMap(lowerWords)
-  val finalResult = sortMapByHighestValue(mapOfWords)
-  finalResult
+  val result = 
+    sortMapByHighestValue(
+      convertToMap(
+        convertToLowerCase(
+          convertToSequence(
+            stripDoubleSpaces(
+              stripFormattingCharacters(
+                replaceNewLinesWithSpaces(document)
+                )
+              )
+            )
+          )
+        )
+      )
+  result
 
 def replaceNewLinesWithSpaces(text: String): String =
   text.replaceAll("\n", " ")
@@ -49,6 +58,13 @@ def sortMapByHighestValue(text: Map[String, Int]): VectorMap[String, Int] =
   VectorMap(text.toSeq.sortWith((t1, t2) => t1._2 > t2._2): _*)
 
 object Main extends App {
-  val document = Source.fromResource("text.txt").mkString
-  println(wc(document))
+  def readFromFile(name: String): Try[String] =
+    allCatch.withTry(Source.fromResource(name).mkString)
+
+  val maybeFile = readFromFile("text.txt")
+
+  maybeFile match {
+    case Success(value) => println(wc(value))
+    case Failure(exception) => println("Couldn't read the file: $exception")
+  }
 }

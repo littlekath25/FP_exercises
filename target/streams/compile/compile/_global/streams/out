@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala:8:15 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m    println(wc(result))[0m
-[0m[[0m[31merror[0m] [0m[0m  |               [31m^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m  |               Found:    (result : scala.io.BufferedSource)[0m
-[0m[[0m[31merror[0m] [0m[0m  |               Required: String[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/katherine/Desktop/playground/src/main/scala/ebook.scala:64:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m64 |[0m  println(wc(readFromFile([31m"text.txt"[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m   |             [31m^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |             Found:    [1m[31mutil[0m[1m[31m.[0m[1m[31mTry[0m[1m[31m[[0mString[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |             Required: String[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
