@@ -65,6 +65,6 @@ object Main extends App {
 
   maybeFile match {
     case Success(value) => println(wc(value))
-    case Failure(exception) => println("Couldn't read the file: $exception")
+    case Failure(exception) => println(s"Couldn't read the file: $exception")
   }
 }
